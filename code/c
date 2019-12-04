@@ -10,12 +10,15 @@ int main(void)
 	scanf("%d", &y);
 
 	if (x>y)
-		max = x;
+	{
+		max = x; 
 		min = y;
+	}
 	else
+	{	
 		max = y;
 		min = x;
-
+	}
 	printf("큰 수는 %d" , max);
 	printf("작은 수는 %d" , min);
 	return 0;
