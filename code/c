@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(void)
 {
-	int x, y, max;
+	int x, y, max, min;
 	
 	printf("첫번째 정수: ");
 	scanf("%d", &x);
@@ -11,9 +11,12 @@ int main(void)
 
 	if (x>y)
 		max = x;
+		min = y;
 	else
 		max = y;
+		min = x;
 
 	printf("큰 수는 %d" , max);
+	printf("작은 수는 
 	return 0;
 }
