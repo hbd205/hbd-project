@@ -17,6 +17,6 @@ int main(void)
 		min = x;
 
 	printf("큰 수는 %d" , max);
-	printf("작은 수는 
+	printf("작은 수는 %d" , min);
 	return 0;
 }
